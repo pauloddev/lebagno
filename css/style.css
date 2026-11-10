@@ -141,7 +141,6 @@ html.no-intro .intro{display:none}
 .header.solid{background:var(--surface);color:var(--ink);box-shadow:0 1px 0 var(--line)}
 .header.solid .brand .on-dark{opacity:0}
 .header.solid .brand .on-light{opacity:1}
-.header.hide{transform:translateY(-100%)}
 .page-light .header{background:var(--surface);color:var(--ink);box-shadow:0 1px 0 var(--line)}
 .page-light .header .brand .on-dark{opacity:0}
 .page-light .header .brand .on-light{opacity:1}

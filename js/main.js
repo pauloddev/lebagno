@@ -50,8 +50,6 @@
     var onScroll = function () {
       var y = window.scrollY;
       h.classList.toggle("solid", y > solidAt);
-      h.classList.toggle("hide", y > 500 && y > last + 4 && !doc.classList.contains("menu-open"));
-      if (y < last - 4) h.classList.remove("hide");
       last = y;
     };
     window.addEventListener("scroll", onScroll, { passive: true });
